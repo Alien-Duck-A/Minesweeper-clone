@@ -6,7 +6,7 @@ public abstract class Tile implements Displayable {
 
     }
 
-    int width = 50, height = 50;
+    int tWidth = 50, tHeight = 50; //temporary
     int posX, posY;
     boolean discovered = false;
     boolean flaged = false;
