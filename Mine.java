@@ -1,4 +1,4 @@
-package minesweeper;
+
 
 public class Mine extends Tile{
     Mine(int x, int y){
@@ -10,7 +10,7 @@ public class Mine extends Tile{
         return true;
     }
     @Override
-    void discover(){
+    public void discover(){
         Main.discoveredMine = true;
     }
 }

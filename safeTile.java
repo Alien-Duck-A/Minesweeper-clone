@@ -1,4 +1,4 @@
-package minesweeper;
+
 
 public class safeTile extends Tile {
     int minesNearby;
@@ -40,9 +40,6 @@ public class safeTile extends Tile {
             }
             sumy = posY - 1;
         }
-    }
-    @Override
-    public void draw() {
-        //draws number of mines nearby onto tile
+        //draw self
     }
 }
